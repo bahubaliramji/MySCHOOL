@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    padding: 10px;
+    margin: 0;
+    background-color: #fff;
+}
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+}
+.active {
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+
+
+
+span {
+    color: blanchedalmond;
+}
+.custom-nav-item {
+    margin-left: 5px;
+}
+.custom-nav .custom-nav-item a {
+    color: #fff !important;
+}
+.custom-nav-item:hover{
+    background-color: #dc3545;
+    border: solid #dc3545;
+    color: #fff;
+    border-radius: 10px;
+}
+.remove-vid-marg {
+    margin: 0;
+    padding: 0;
+}
+.vid-parent {
+    position: relative;
+}
+video{
+    width: 100%;
+    height: 100%;
+}
+.vid-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #00B1B9;
+    z-index: 1;
+    opacity: .6;
+}
+.vid-content {
+    position: absolute;
+    z-index: 2;
+    top: 35%;
+    left: 35%;
+    text-align: center;
+    color: #fff;
+
+}
+.bottom-banner {
+    color: #fff;
+    padding: 10px;
+}
+#contact {
+    margin-top: 20px;
+}
+.stripe {
+    background-image: linear-gradient(240deg, #ed213a, #93291e);
+    padding: 3rem;
+    height: 13rem;
+    margin-top: 4rem;
+    transform: rotate(20deg);
+    z-index: -5;
+}
+.p-sapn {
+    margin-left: 10px;
+    color: black;
+}
+
+
+
+
+@media screen and (min-width:0px) and (max-width:700px) {
+    .my-content, .txt-banner, .stripe{
+        display: none;
+    }
+    .vid-content {
+        top:20%;
+        width: 40%;
+    }
+    .custom-nav .custom-nav-item a{
+        padding: 10px 20px;
+        background-color: #225470;
+    }
+    .custom-nav-item:hover {
+        background-color: none;
+        border: none;
+        border-radius: none;
+    }
+}
+
+
+
+
